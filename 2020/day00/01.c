@@ -11,7 +11,7 @@ expense_report(char *input)
 {
 	int		fd = open(input, O_RDONLY);
 	char	*line;
-	int		**report =
+	int		*report =
 	
 	while (get_next_line(fd, &line) > 0)
 	{
